@@ -1,0 +1,1 @@
+Faça uma ação, ajude seu pensamento, refaça essa ação, perceba o que você fez, reconheça sua vitória, torne isso uma atitude, atitude em hábito, hábito vira sucesso
