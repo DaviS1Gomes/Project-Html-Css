@@ -1,1 +1,2 @@
-Faça uma ação, ajude seu pensamento, refaça essa ação, perceba o que você fez, reconheça sua vitória, torne isso uma atitude, atitude em hábito, hábito vira sucesso
+Parte do desafio médio, que contém apenas Main section e Header.
+    Não tem responsividade por enquanto!
