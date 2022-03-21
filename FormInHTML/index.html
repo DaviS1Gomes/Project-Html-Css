@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="form">
+        <form action="#" class=".form">
+
+            <hgroup class="titleGroup">
+                <h1 class="title">Cadastro de DEVs</h1>
+                <h2 class="subTitle">Complete suas informações</h2>
+            </hgroup>
+
+            <div class="Informations">
+                <div class="Nome">
+                    <label for="PNome">Nome:</label>
+                    <input type="text" name="Nome" id="PNome">
+                </div>
+                <div class="Sobrenome">
+                    <label for="UNome">Sobrenome:</label>
+                    <input type="text" name="Sobrenome" id="UNome">
+                </div>
+                <div class="Email">
+                    <label for="Email">Email:</label>
+                    <input type="email" id="Email" name="email">
+                </div>
+            </div>
+
+            <div class="Aplications">
+                <fieldset class="groupAplications">
+                    <legend class="titleAplications">De qual lado da aplicação você desenvolve?</legend>
+                    <div class="FrontEnd">
+                        <input type="radio" name="aplicação" id="FrontEnd" checked>
+                        <label for="FrontEnd">Front-End</label>
+                    </div>
+                    <div class="BackEnd">
+                        <input type="radio" name="aplicação" id="BackEnd">
+                        <label for="BackEnd">Back-End</label>
+                    </div>
+                    <div class="FullStack">
+                        <input type="radio" name="aplicação" id="FullStack">
+                        <label for="FullStack">Full-Stack</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="Senioridade">
+                <label for="Senioridade">Senioridade:</label>
+                <select name="Senioridade" id="Senioridade" class="listOptions">
+                    <option value="none" selected disabled>Select</option>
+                    <option value="Trainee">Trainee</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Pleno">Pleno</option>
+                    <option value="Senior">Senior</option>
+                </select>
+
+            </div>
+
+            <div class="Tecnologias">
+                <fieldset>
+                    <legend id="legend">Selecione as tecnologia que utiliza:</legend>
+                    <input type="checkbox" name="Tecnologias" id="HTML">
+                    <label for="HTML">HTML</label>
+                    <input type="checkbox" name="Tecnologias" id="CSS">
+                    <label for="HTML">CSS</label>
+                    <input type="checkbox" name="Tecnologias" id="JavaScript">
+                    <label for="HTML">JavaScript</label>
+                    <input type="checkbox" name="Tecnologias" id="PHP">
+                    <label for="HTML">PHP</label>
+                    <input type="checkbox" name="Tecnologias" id="C#">
+                    <label for="HTML">C#</label>
+                    <input type="checkbox" name="Tecnologias" id="Python">
+                    <label for="HTML">Python</label>
+                    <input type="checkbox" name="Tecnologias" id="Java">
+                    <label for="HTML">Java</label>
+                </fieldset>
+            </div>
+
+            <div class="Experience">
+                <label for="experience">Conte um pouco mais da sua experiência:</label>
+                <textarea name="experience" id="experience" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="button">
+                <input type="button" value="Concluído">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

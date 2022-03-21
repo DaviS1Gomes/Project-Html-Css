@@ -1,0 +1,215 @@
+body {
+    background-image: url(../img/liquid-cheese.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 62.5%;
+}
+
+.form {
+    width: 35%;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    box-shadow: 2px 2px 1px black;
+    position: relative;
+    left: 32.5%;
+    bottom: 0;
+    top: 10rem;
+}
+
+.titleGroup {
+    margin-top: 2rem;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Fira code', sans-serif;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.subTitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.Nome {
+    font-weight: 500;
+    font-family: 'Fira code', sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Nome input {
+    display: flex;
+    padding: 0.2rem;
+    width: 12.5rem;
+    border: 1px groove black;
+    border-radius: 3.5px;
+    box-shadow: 2px 2px 1px black;
+}
+
+.Sobrenome {
+    font-weight: 500;
+    font-family: 'Fira code', sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Sobrenome input {
+    display: flex;
+    padding: 0.2rem;
+    width: 12.5rem;
+    border: 1px groove black;
+    border-radius: 3.5px;
+    box-shadow: 2px 2px 1px black;
+}
+
+.Email {
+    font-weight: 500;
+    margin-top: 0.5rem;
+    font-family: 'Fira code', sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Email input {
+    display: flex;
+    padding: 0.2rem;
+    width: 12.5rem;
+    border: 1px groove black;
+    border-radius: 3.5px;
+    box-shadow: 2px 2px 1px black;
+}
+
+.Informations {
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: 17rem auto;
+    text-align: left;
+}
+
+.titleAplications {
+    font-weight: 500;
+}
+
+.groupAplications {
+    font-size: 1rem;
+    font-family: 'Fira code', sans-serif;
+    display: flex;
+}
+
+.Aplications {
+    margin: 1.2rem;
+}
+
+.FrontEnd {
+    margin: 0.5rem;
+}
+
+.BackEnd {
+    margin: 0.5rem;
+}
+
+.FullStack {
+    margin: 0.5rem;
+}
+
+.Senioridade {
+    display: flex;
+    flex-direction: column;
+    width: 7.5rem;
+    font-family: 'Fira code', sans-serif;
+}
+
+.Senioridade label {
+    font-weight: 500;
+    font-size: 1.10rem;
+}
+
+.listOptions {
+    display: flex;
+    background-color: white;
+    border: 1px groove black;
+    border-radius: 5px;
+    font-size: 1.10rem;
+    font-family: 'Fira code', sans-serif;
+    font-weight: 400;
+    box-shadow: 1.5px 1.5px 1px black;
+}
+
+.Tecnologias {
+    font-family: 'Fira code', sans-serif;
+    margin: 1rem;
+}
+
+.Tecnologias fieldset legend {
+    display: flex;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Tecnologias fieldset label {
+    font-family: 'Fira code', sans-serif;
+    font-size: 1.05rem;
+    margin: 0.2rem;
+}
+
+.Tecnologias fieldset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Experience {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fira code', sans-serif;
+}
+
+.Experience label {
+    font-weight: 500;
+    text-align: left;
+}
+
+.Experience textarea {
+    display: inherit;
+    width: 30rem;
+    height: 10rem;
+    border: 1px groove black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px black;
+}
+
+.button input {
+    font-family: 'Fira code', sans-serif;
+    background: gray;
+    border: 1px groove black;
+    border-radius: 0.4rem;
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 500;
+    margin: 2rem;
+    box-shadow: 2px 2px 1px black;
+    transform: scale(1);
+    transition: 0.1s;
+}
+
+.button input:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+}
